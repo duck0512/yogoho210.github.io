@@ -1,0 +1,151 @@
+@font-face {
+    font-family:'이쁜폰트';
+    src: local('Nanumsquare'), url(nanumsquare.ttf);
+}
+
+body {
+    font-family: '이쁜폰트','malgun-gothic';
+    
+}
+
+
+.background {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), 
+        url(img/kid.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    
+    
+}
+
+
+
+
+
+
+.fish-size img {
+    width: 100px;
+    display: block;
+    margin: 30px auto 20px auto;
+}
+
+.fish-size {
+    text-align: center;
+}
+
+
+
+.margin-left {
+    margin-left: auto;
+}
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 10;
+}
+
+.modal-content {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15%;
+    padding: 20px;
+}
+
+
+
+/*
+
+.grey-background {
+    text-align: center;
+    background-color: #eee;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.shirt-img img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.shirt-img p {
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+
+
+.productbox {
+    background-color: white;
+    padding-bottom: ;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: transparent;
+}
+
+.overlay p {
+    position: relative;
+    top: 40%;
+}
+
+
+.overlay:hover{
+    background-color: rgba(0,0,0,0.3);
+    transition-duration: 1s;
+    transition-timing-function:ease-out;
+    color: white;
+}
+
+*/
+
+.shirts-img img {
+    width: 100%;
+    
+}
+
+.shirts-img {
+    text-align: center;
+}
+
+.shirts-img h4 {
+    margin-top: 30px;
+}
+
+.shirts-img p {
+    margin-bottom: 30px;
+}
+
+.grey-background {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.overlay:hover {
+    background-color: rgba(0,0,0,0.4);
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.position {
+    position: relative;
+}
